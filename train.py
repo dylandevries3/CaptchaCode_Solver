@@ -10,10 +10,6 @@ from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.layers.core import Flatten, Dense
 from helpers import resize_to_fit
 
-
-MODEL_LABELS_FILENAME = "model_labels.dat"
-
-
 #images and answers array
 images = []
 answers = []
